@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  menus-api:
+    image: dr.felicien-fouillet.fr/menus-api:latest
+    container_name: menus-api
+    privileged: true
+    restart: unless-stopped
+    networks:
+      - menus-api
+    ports:
+      - 3030:3030
+
+networks:
+  menus-api:
+    external:
+      name: docker_default
