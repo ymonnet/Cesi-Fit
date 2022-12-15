@@ -19,13 +19,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com//typescript-npm-package-template.git"
+    "url": "git+https://github.com/ryansonshine/typescript-npm-package-template.git"
   },
   "license": "MIT",
   "author": {
     "name": "Cesi-Fit",
-    "email": "@users.noreply.github.com",
-    "url": "https://github.com/"
+    "email": "ryansonshine@users.noreply.github.com",
+    "url": "https://github.com/ryansonshine"
   },
   "engines": {
     "node": ">=12.0"
@@ -42,12 +42,12 @@
     "codecov"
   ],
   "bugs": {
-    "url": "https://github.com//typescript-npm-package-template/issues"
+    "url": "https://github.com/ryansonshine/typescript-npm-package-template/issues"
   },
-  "homepage": "https://github.com//typescript-npm-package-template#readme",
+  "homepage": "https://github.com/ryansonshine/typescript-npm-package-template#readme",
   "devDependencies": {
-    "@/commitizen": "^4.2.8",
-    "@/cz-conventional-changelog": "^3.3.4",
+    "@ryansonshine/commitizen": "^4.2.8",
+    "@ryansonshine/cz-conventional-changelog": "^3.3.4",
     "@types/jest": "^27.5.2",
     "@types/node": "^12.20.11",
     "@typescript-eslint/eslint-plugin": "^4.22.0",
@@ -68,7 +68,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/@/cz-conventional-changelog"
+      "path": "./node_modules/@ryansonshine/cz-conventional-changelog"
     }
   },
   "lint-staged": {

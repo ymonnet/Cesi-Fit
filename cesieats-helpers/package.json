@@ -1,7 +1,7 @@
 {
   "name": "@grp-2-projet-elective/cesieats-helpers",
   "version": "1.1.40",
-  "description": "",
+  "description": "> Template to kickstart creating a Node.js module using TypeScript and VSCode",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "files": [
