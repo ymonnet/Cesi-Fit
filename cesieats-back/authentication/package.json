@@ -14,7 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@ymonnet/cesifit-helpers": "^1.1.42",
+    "@ymonnet/cesifithelpers": "^1.1.42",
     "axios": "^0.27.2",
     "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
